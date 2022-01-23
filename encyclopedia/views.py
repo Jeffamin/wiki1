@@ -8,3 +8,6 @@ def index(request):
         "entries": util.list_entries()
     })
 
+def new_page(request):
+    return render(request, "encyclopedia/newp.html")
+
